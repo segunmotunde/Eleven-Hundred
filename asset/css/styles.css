@@ -1,0 +1,29 @@
+/* first color = #271770
+Second color = #008DD7 */
+*{
+   margin: 0;
+   padding: 0;
+   font-family: 'Roboto', sans-serif;
+}
+.bg-color{
+   background-color: white !important;
+   color: #271770;
+}
+
+
+navbar-eleven{
+   position:fixed !important;
+}
+
+h1, p {
+   margin: auto;
+}
+.navBar-icon{
+   width: 100px;
+}
+#container{
+   height: 500px;
+   width: 100%;
+   background-image:  linear-gradient(#2717704d, #008cd72c),url("../img/carousel/hero-carousel-1.jpg");
+   background-position: top;
+}
