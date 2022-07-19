@@ -1,0 +1,22 @@
+@media only screen and (max-width: 600px) {
+    .welContainer{
+        display: block; 
+     }
+     .weltext{
+        font-weight: 100;
+        width: 100%;
+        border-right: none;
+        padding: 10px 15px;
+        text-align: justify;
+     
+     }
+     .welImage{
+        height: 300px;
+        width: 100%;
+        margin: 10px 30px;
+        background-image: url(../img/carousel/hero-carousel-4.jpg);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+     }
+  }
