@@ -118,6 +118,8 @@ animation-duration: 3s;
    
    padding: 10px 15px;
    text-align: justify;
+   justify-content: center;
+   align-items: center;
    box-sizing: border-box;
 
 }
@@ -132,7 +134,10 @@ animation-duration: 3s;
    box-sizing: border-box;
 }
 /* END WELCOME STYLING  */
-
+.welcomeSection{
+   display: flex;
+   align-items: center;
+}
 .imgCustomer{
    height: 100px;
    width: 200px;
