@@ -107,10 +107,10 @@ animation-duration: 3s;
 }
 /* END SLIDER STYLING  */
 /* START WELCOME STYLING  */
-.welContainer{
+/* .welContainer{
    display: flex;
    margin: 20px;
-}
+} */
 .weltext{
    font-weight: 100;
    width: 50%;
@@ -166,12 +166,12 @@ animation-duration: 3s;
    background-image: url(../img/filmhouse.png);
    background-size: contain;
 }
-#services{
+/* #services{
    display: grid;
    margin: 10px 20px;
    grid-template-columns: 1fr 1fr 1fr;
    grid-gap: 30px 40px;
-}
+} */
 #services .servicesPrimary{
    /* border: solid 1px #271770; */
    padding: 20px;
