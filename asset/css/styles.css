@@ -190,9 +190,11 @@ animation-duration: 3s;
 }
 #footerContainer{
    /* height: 450px; */
-   display: grid;
+   /* display: grid;
    grid-template-columns: 1fr 1fr;
-   grid-column-gap: 50px;
+   grid-column-gap: 50px; */
+   display: flex;
+   align-items: center;
    margin-top: 20px;
    background-color: #271770;
    color: white;
