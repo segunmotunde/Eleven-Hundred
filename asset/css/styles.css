@@ -210,11 +210,24 @@ animation-duration: 3s;
 .fa{
    color: white;
 }
+
 #footerContainer .quicklinks{
+   /* display: flex;
+   margin-top: 20px; */
    display: flex;
-   margin-top: 20px;
+   justify-content: center;
+   align-items: flex-start;
+  gap: 1em;
+  list-style: none;
 
 }
+.quicklinks > div{
+   width: 30%;
+   list-style: none;
+
+   }
 #footerContainer .footerPrimary .footerContact{
    display: flex;
+   justify-content: center;
+   align-items: center;
 }
