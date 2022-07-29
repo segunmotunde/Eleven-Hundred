@@ -44,7 +44,7 @@
 
      .welImage{
         height: 300px;
-        width: 100%;
+        width: 90%;
         box-sizing: border-box;
         margin: 10px 30px;
         background-image: url(../img/carousel/hero-carousel-4.jpg);
@@ -66,6 +66,9 @@
 
    #footerContainer .FooterContact{
       display: flex;
+   }
+   iframe {
+      width: 400px;
    }
   }
 
