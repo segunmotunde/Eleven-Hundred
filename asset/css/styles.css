@@ -58,7 +58,7 @@ h2{
 #containerSLider{
    width: 100vw;
    min-height: 400px;
-  
+  margin-bottom: 15px;
    background-position: bottom;
    position: relative;
    background-repeat: no-repeat;
@@ -216,8 +216,37 @@ animation-duration: 3s;
 iframe{
    width: 100%;
 }
-.footerContact{
+.GetinTouch{
    display: flex;
+}
+#maps{
+   width: 100vw;
+}
+.links ul li {
+   color: #271770;
+   list-style: none;
+}.links ul li a {
+   color: #271770;
+}  
+
+.footerContact{
+   /* display: flex; */
    justify-content: center;
    align-items: center;
 }
+#footerContainer .footerPrimary .footerContact ul {
+   display: flex;
+   margin: auto;
+   gap: 2rem;
+   justify-content: center;
+
+
+} 
+#footerContainer .footerPrimary .footerContact ul li {
+   list-style: none;
+
+
+} 
+#footerContainer .footerPrimary .quicklinks ul li {
+   list-style: none;
+} 
